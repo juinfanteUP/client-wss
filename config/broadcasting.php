@@ -38,7 +38,10 @@ return [
             'options' => [
                 'cluster' => env('PUSHER_APP_CLUSTER'),
                 'encrypted' => true,
-                'useTLS' => true
+                'useTLS' => true,
+                'host' => 'wss2-server.southeastasia.cloudapp.azure.com',
+                'port' => 6001,
+                'scheme' => 'https'
             ],
         ],
 

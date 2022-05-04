@@ -27,6 +27,9 @@ window.Vue = require('vue').default;
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+
+
+
  var app = new Vue({
     el: '#app',
     data: {

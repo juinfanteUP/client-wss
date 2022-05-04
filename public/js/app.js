@@ -2842,10 +2842,14 @@
                     window.Pusher = __webpack_require__( /*! pusher-js */ "./node_modules/pusher-js/dist/web/pusher.js");
                     window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
                         broadcaster: 'pusher',
-                        key: "a80e16347d968ff4f967",
+                        key: "kinect_key",
                         cluster: "ap1",
                         encrypted: true,
-                        forceTLS: true
+                        wsHost: 'wss2-server.southeastasia.cloudapp.azure.com',
+                        wsPort: 6001,
+                        wssPort: 6001,
+                        forceTLS: true,
+                        disableStats: true
                     });
     
                     /***/
